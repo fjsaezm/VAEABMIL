@@ -1,5 +1,8 @@
 # [Using Variational Autoencoders for Out of Distribution Detection in Histological Multiple Instance Learning](https://ieeexplore.ieee.org/document/11098836/)
 
+![Pipeline](assets/pipeline.jpg)
+
+
 > **⚠️ Warning: Recommended Implementation**  
 > For the most up-to-date and feature-rich version of VAEABMIL, we recommend using the implementation available in the [torchmil](https://github.com/franblueee/torchmil) library under `torchmil.models.VAEABMIL`. This repository contains the original implementation from the paper but may not include the latest enhancements.
 
@@ -12,7 +15,6 @@ VAEABMIL (Variational Autoencoder - Attention-based Multiple Instance Learning) 
 Key features:
 - **VAE Integration**: Uses a VAE to encode instance features into a latent space, enabling OOD detection.
 - **Attention Mechanism**: Employs attention-based pooling to aggregate instance-level features into bag-level representations.
-
 
 ## Citation
 If you use this work, please cite:
